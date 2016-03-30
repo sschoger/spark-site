@@ -1,0 +1,564 @@
+body {
+	font-family: "avenir", 'open sans', helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424242;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #91D8EA;
+}
+
+::-moz-selection {
+  background: #91D8EA;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0 20px;
+
+}
+
+#header .container {
+	padding-top: 40px;	
+}
+
+
+.top-bar{
+	height: 10px;
+	background: #69AED1;
+}
+
+.navbar .nav-links li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 40px;
+}
+
+.navbar .nav-links {
+	float: right;
+	line-height: 64px;	
+}
+
+.headline{
+	margin: 2em 0;
+	text-align: left;
+}
+
+strong{
+	font-weight: 700;
+}
+
+.headline h1{
+	margin-bottom: 20px;
+}
+
+.logo {
+	float: left;
+	background-image: url("../img/spark-logo.png");
+	background-repeat: no-repeat;
+	padding-top: 12px;
+	padding-left: 144px;
+	height: 48px;
+	display: block;
+}
+
+.name{
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.title{
+	color: #AEB0B2;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#header {
+	background-image: url("../img/spark-bg.png");
+	background-size: 300px 200px;
+	top: 0;
+	left: 0;
+	display: block;
+	padding-bottom: 60px;
+}
+
+
+.get-started-cta{
+	float: left;
+}
+
+.get-started-cta-btn{
+	font-size: 16px;
+	padding: 14px 40px;
+	background: #69AED1;
+	color: #fff;
+	display: block;
+	line-height: 21px;
+	min-width: 0;
+	min-height: 0;
+	margin: 0;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+}
+
+#what-is {
+	padding: 20px 0 0px 0;
+}
+
+.what-is-box {
+	background: #F7FAFB;
+	border: 2px solid #C8D5DB;
+	height: 330px;
+}
+
+.dashboard-screen {
+	padding-top: 40px;
+	float: right;
+}
+
+.save-costs{
+	margin-top: 4px;
+	background: #69AED1;
+	padding: 28px 40px 20px 40px;
+}
+
+.main-bene-text{
+}
+
+p.enough-features{
+	color: #fff;
+	font-size: 24px;
+	margin: 0 0 0px;
+}
+
+p.only-cost{
+	color: #fff;
+	font-size: 18px;
+}
+
+.taylor-quote{
+	background-image: url("../img/quotes.png");
+	background-size: 440px 120px;
+	width: 440px;
+	height: 120px;
+	padding-top: 10px;
+	display: block;
+}
+
+.learn-more-cta-btn{
+	font-size: 16px;
+	padding: 6px 10px;
+	color: #69AED1;
+	background: #fff;
+	display: block;
+	line-height: 21px;
+	margin: 0;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+}
+
+#laravel {
+	padding: 60px 0 60px 0;
+}
+
+.taylor-info{
+	border-top: 2px solid #D2D6D8;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.taylor-avatar{
+	background-image: url("../img/taylor-avatar.png");
+	background-size: 48px 48px;
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+
+.taylor-name-title{
+	padding-left: 20px;
+	padding-top: 4px;
+	float: left;
+}
+
+.taylor-name{	
+}
+
+.taylor-title{	
+}
+
+ul.social-media-links{
+	float: right;
+	padding-top: 10px;
+}
+
+li.icon-twitter{
+	background-image: url("../img/icon-twitter.png");
+	background-size: 26px 26px;
+	width: 26px;
+	height: 26px;
+}
+
+li.icon-github{
+	background-image: url("../img/icon-github.png");
+	background-size: 26px 26px;
+	width: 26px;
+	height: 26px;
+}
+
+li.icon-email{
+	background-image: url("../img/icon-email.png");
+	background-size: 26px 26px;
+	width: 26px;
+	height: 26px;
+}
+
+
+#footer {
+	padding: 20px 0;
+	background-color: #fff;
+	border-top: 2px solid #D2D6D8;
+}
+
+
+#features {
+	background-color: #FFF;
+	padding: 60px 0 80px 0;
+	border-bottom: 1px solid #D2D6D8;
+}
+
+
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	color: #354953;
+}
+
+h2 {
+	font-size: 1.75em;
+	color: #354953;
+}
+
+
+h3 {
+	font-size: 1.25em;
+	font-weight: 500;
+	line-height: 1.25em;
+	color: #354953;
+}
+
+
+h4 {
+	font-size: 1.375em;
+	margin-top: 20px;
+}
+
+p.lead {
+	font-size: 1.25em;
+	line-height: 1.5em; 
+	font-weight: 400;
+	color: #354953;
+}
+
+p.footer-text {
+	font-size: .8em;
+	line-height: 1.5em; 
+	font-weight: 400;
+	color: #354953;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color:#354953;
+}
+
+.navbar{
+	display: block;
+}
+
+nav.navbar a {
+	color: #AEB0B2;
+}
+
+nav.navbar a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+figure {
+	display: block;
+	margin-bottom: 20px;
+	width: 42px;
+	height:42px;
+	background-repeat: no-repeat;
+}
+
+.skill{
+	margin-top: 20px;
+}
+
+.icon-auth{
+	background-image: url("../img/icon-auth.png");
+	background-size: 36px 36px;
+}
+
+.icon-subscribe{
+	background-image: url("../img/icon-subscribe.png");
+	background-size: 36px 36px;
+}
+
+.icon-inv{
+	background-image: url("../img/icon-inv.png");
+	background-size: 36px 36px;
+}
+
+.icon-cog{
+	background-image: url("../img/icon-cog.png");
+	background-size: 36px 36px;
+}
+
+.icon-team{
+	background-image: url("../img/icon-teams.png");
+	background-size: 38px 36px;
+}
+
+.icon-back{
+	background-image: url("../img/icon-back.png");
+	background-size: 36px 36px;
+}
+
+.icon-imp{
+	background-image: url("../img/icon-imp.png");
+	background-size: 36px 36px;
+}
+
+.icon-two{
+	background-image: url("../img/icon-two.png");
+	background-size: 36px 36px;
+}
+
+.icon-more{
+	background-image: url("../img/icon-more.png");
+	background-size: 36px 36px;
+}
+
+.contact-info{
+}
+
+.dol-fig{
+	font-size: 64px;
+	font-weight: 300;
+}
+
+.hero-illustration{
+}
+
+@media 
+(min-width: 1200px){ 
+
+.row > div:nth-child(3n+4){
+    clear: both;
+  }
+
+.dashboard-screen{
+	position: absolute;
+	clip: rect(0px, 475px, 326px, 0px);
+}
+
+.about-spark{
+	padding: 30px 20px 0 60px;
+}
+
+}
+
+@media 
+(min-width: 992px) and (max-width: 1199px){ 
+
+.row > div:nth-child(3n+4){
+    clear: both;
+  }
+	
+.border-bottom-right {
+	border-bottom: 1px solid #D2D6D8;
+	border-right: 1px solid #D2D6D8;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #D2D6D8;
+}
+
+.border-right {
+	border-right: 1px solid #D2D6D8;
+}
+
+.about-spark{
+	padding: 30px 20px 0 60px;
+}
+
+.dashboard-screen{
+	position: absolute;
+	clip: rect(0px, 448px, 326px, 0px);
+}
+	
+	
+}
+
+
+@media
+(max-width: 991px){
+
+.row > div:nth-child(2n+3){
+    clear: both;
+  }
+
+h1 {
+	font-size: 2.75em;
+	font-weight: 300;
+}
+
+p.lead {
+	font-size: 1.125em;
+	line-height: 1.75em; 
+	font-weight: 400;
+}
+
+.headline{
+	margin: 3.5em 0;
+	text-align: center;
+}
+
+.hero{
+	text-align: center;
+}
+
+img.hero-illustration{
+	height: auto;
+	max-width: 100%;
+}
+
+.get-started-cta{
+	float: none;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.dashboard-screen{
+	position: relative;
+	clip: initial;
+	float: none;
+	padding: 0;
+}
+
+img.dashboard-screen{
+	height: auto;
+	max-width: 100%;
+}	
+
+.screenshot{
+	text-align: center;
+	padding: 0 28px;
+}
+
+.about-spark{
+	padding: 20px 44px 20px 44px;
+}
+
+.what-is-box{
+	background: #F7FAFB;
+	border: 2px solid #C8D5DB;
+	height: auto;
+}
+
+p.enough-features{
+	text-align: center;
+}
+
+.hand-built{
+	margin: 0 auto;
+	width: 440px;
+	margin-bottom: 80px;
+}
+	
+.ecosystem {
+	margin: 0 auto;
+	width: 440px;
+}
+
+}
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+.logo {
+	background-image: url("../img/spark-logo@2x.png");
+	background-size: 144px 48px;
+}
+}
+
+input, select, textarea {
+	margin-top: 20px;
+}
+
+textarea.form-control{
+	height: 142px;
+}
+
+.btn-primary {
+	float: right;
+	color: #fff;
+	background-color: #2BB1D4;
+	background-image: none;
+	text-transform: uppercase;
+	border: none;
+	text-shadow: none;
+	padding: 2px 20px 0 20px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.form-fields{
+	margin-bottom: 20px;
+
+}
+
+.form-control{
+	box-shadow: none;
+	background-color: #fff;
+	background-image: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+ul.social{
+	padding: 20px 0 0 0 ;	
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+a.social-link{
+	opacity: 0.75;;
+}
+
+a.social-link:hover{
+	opacity: 1.0;
+}

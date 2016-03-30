@@ -1,0 +1,499 @@
+
+
+body {
+	font-family: "proxima-nova", helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424242;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 80px;
+}
+
+::selection {
+  background: #91D8EA;
+}
+
+::-moz-selection {
+  background: #91D8EA;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 20px;
+
+}
+
+#header .container{
+	padding: 40px 20px;	
+}
+
+
+.navbar .nav-links li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 40px;
+}
+
+.navbar .nav-links {
+	float: right;
+	line-height: 64px;	
+}
+
+.headline{
+	margin: 7.5em 0;
+}
+
+.headline h1{
+	margin-bottom: 20px;
+}
+
+.logo {
+	float: left;
+	background-image: url("../img/schoger-logo.png");
+	background-repeat: no-repeat;
+	padding-top: 12px;
+	padding-left: 84px;
+	height: 64px;
+	display: block;
+}
+
+.name{
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.title{
+	color: #AEB0B2;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#header {
+	background-color: #3C4753;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	filter: none !important;
+	background-image: none;
+}
+
+#profile {
+	margin-top: 40px;
+}
+
+h1 {
+	font-size: 3.25em;
+	font-weight: 300;
+	color: #fff;
+}
+
+h2 {
+	font-size: 1.75em;
+	color: #3C4753;
+}
+
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 1.25em;
+	color: #3C4753;
+}
+
+
+h4 {
+	font-size: 1.375em;
+	margin-top: 20px;
+}
+
+p.lead {
+	font-size: 1.375em;
+	line-height: 1.5em; 
+	font-weight: 400;
+	color: #AEB0B2;
+}
+
+p.footer-text {
+	font-size: 1.75em;
+	line-height: 1.5em; 
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+
+p {
+	font-size: 1.125em;
+	line-height: 1.75em;
+	color:#6F7B87;
+}
+
+.navbar{
+	display: block;
+}
+
+nav.navbar a {
+	color: #AEB0B2;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+nav.navbar a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.go-down {
+	background-image: url("../img/icon-down-arrow.png");
+	background-repeat: no-repeat;
+	height: 44px;
+	width:44px;
+}
+
+figure {
+	display: block;
+	margin-bottom: 20px;
+	width: 42px;
+	height:42px;
+	background-repeat: no-repeat;
+}
+
+.skill{
+	margin-top: 20px;
+}
+
+
+.link-underline{
+	border-bottom: 1px solid #91D8EA;
+	box-shadow: inset 0 -5px 0 #91D8EA;
+	color: inherit;
+	-webkit-transition: background .15s cubic-bezier(.33, .66, .66, 1);
+	transition: background .15s cubic-bezier(.33, .66, .66, 1);
+}
+
+.link-underline:hover{
+	background: #91D8EA;
+	color: #3C4753;
+	background-image:none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-default{
+	float: left;
+	color: #2BB1D4;
+	background-color: Transparent;
+	background-image: none;
+	text-transform: uppercase;
+	border: 1px solid #2BB1D4;
+	text-shadow: none;
+	padding: 2px 20px 0 20px;
+	line-height: 30px;
+	font-weight: 600;
+	box-shadow: none;
+}
+
+.btn-default:after{
+	content: "View Project";
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus:active, .btn-default:active:hover{
+	color: #fff;
+	background-image: none;
+	background-color: #2BB1D4;
+	text-transform: uppercase;
+	border: 1px solid #2BB1D4;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.btn-default:hover:after{
+	content: "Coming Soon";
+}
+
+.btn-default:onclick{
+	color: #fff;
+	background-image: none;
+	background-color: #2BB1D4;
+	text-transform: uppercase;
+	border: 1px solid #2BB1D4;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.case-studies{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.port-thumb{
+	width: 100%;
+	background: #fff;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+}
+
+.project-symanta{
+	width: 100%;
+}
+
+.project-digest{
+	width: 100%;
+}
+
+.company-logos{
+	border: 1px solid #cecece;
+	border-radius: 4px;
+}
+
+.other-companies .row{
+	margin: 0;
+}
+
+.company-logos .company-logo {
+	height: 120px;
+	width: 160px;
+	margin: 0 auto;
+}
+
+.logo-container {
+	border-right: 1px solid #D2D6D8;
+}
+
+.logo-brightspace {
+	background-image: url("../img/logo-brightspace.png");
+	background-repeat: no-repeat;
+}
+
+.logo-sunlife {
+	background-image: url("../img/logo-sunlife.png");
+	background-repeat: no-repeat;
+}
+
+.logo-wg {
+	background-image: url("../img/logo-wg.png");
+	background-repeat: no-repeat;
+}
+
+.logo-corus {
+	background-image: url("../img/logo-corus.png");
+	background-repeat: no-repeat;
+}
+
+.icon-interaction{
+	background-image: url("../img/icon-interaction.png");
+}
+
+.icon-visual{
+	background-image: url("../img/icon-visual.png");
+}
+
+.icon-illustration{
+	background-image: url("../img/icon-illustration.png");
+}
+
+.icon-code{
+	background-image: url("../img/icon-code.png");
+}
+
+.contact-info{
+}
+
+@media 
+(max-width: 992px) { 
+	
+.border-bottom-right {
+	border-bottom: 1px solid #D2D6D8;
+	border-right: 1px solid #D2D6D8;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #D2D6D8;
+}
+
+.border-right {
+	border-right: 1px solid #D2D6D8;
+}
+
+.cs-symanta{
+	margin-bottom: 40px;
+}
+
+.cs-digest{
+	margin-bottom: 40px;
+}
+	
+}
+
+@media 
+(max-width: 768px) { 
+
+h1 {
+	font-size: 2.75em;
+	font-weight: 300;
+	color: #fff;
+}
+
+p.lead {
+	font-size: 1.125em;
+	line-height: 1.75em; 
+	font-weight: 400;
+	color: #AEB0B2;
+}
+
+.headline{
+	margin: 3.5em 0;
+}
+
+.logo-container {
+	border-right: none;
+	border-bottom: 1px solid #cecece;
+}
+
+.navbar .nav-links {
+	display: none;	
+}
+
+.cs-symanta{
+	margin-bottom: 40px;
+	float: left;
+}
+
+.cs-digest{
+	margin-bottom: 0px;
+	float: left;
+}
+}
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+.logo {
+	background-image: url("../img/schoger-logo@2x.png");
+	background-size: 64px 64px;
+}
+
+.go-down {
+	background-image: url("../img/icon-down-arrow@2x.png");
+	background-size: 44px 44px;
+}
+
+.logo-brightspace {
+	background-image: url("../img/logo-brightspace@2x.png");
+	background-size: 160px 120px;
+}
+
+.logo-sunlife {
+	background-image: url("../img/logo-sunlife@2x.png");
+	background-size: 160px 120px;
+}
+
+.logo-wg {
+	background-image: url("../img/logo-wg@2x.png");
+	background-size: 160px 120px;
+}
+
+.logo-corus {
+	background-image: url("../img/logo-corus@2x.png");
+	background-size: 160px 120px;
+}
+
+
+.icon-interaction{
+	background-image: url("../img/icon-interaction@2x.png");
+	background-size: 40px 40px;
+}
+
+.icon-visual{
+	background-image: url("../img/icon-visual@2x.png");
+	background-size: 41px 41px;
+}
+
+.icon-illustration{
+	background-image: url("../img/icon-illustration@2x.png");
+	background-size: 41px 40px;
+}
+
+.icon-code{
+	background-image: url("../img/icon-code@2x.png");
+	background-size: 40px 40px;
+}
+}
+
+input, select, textarea {
+	margin-top: 20px;
+}
+
+textarea.form-control{
+	height: 142px;
+}
+
+.btn-primary {
+	float: right;
+	color: #fff;
+	background-color: #2BB1D4;
+	background-image: none;
+	text-transform: uppercase;
+	border: none;
+	text-shadow: none;
+	padding: 2px 20px 0 20px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.form-fields{
+	margin-bottom: 20px;
+
+}
+
+.form-control{
+	box-shadow: none;
+	background-color: #fff;
+	background-image: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+ul{
+	padding: 0 ;	
+}
+
+li{
+	float: left;
+	list-style: none;
+	font-size: 16px;
+	line-height:24px;
+	margin-bottom: 0.5em;
+}
+
+li:before {
+    content:"·";
+    font-size:30px;
+    vertical-align:middle;
+    line-height:16px;
+}
+
+.skills-item{
+	margin-bottom: 10px;
+}
+
+a.social-link{
+	opacity: 0.75;;
+}
+
+a.social-link:hover{
+	opacity: 1.0;
+}
