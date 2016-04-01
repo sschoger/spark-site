@@ -88,23 +88,38 @@ strong{
 }
 
 
-.get-started-cta{
+a.get-started-cta{
 	float: left;
+	background: #69AED1;
+	font-weight: 500;
+	margin-top: 32px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 20px;
+	padding-left: 22px;
+	border-radius: 6px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.get-started-cta:hover{
+	background: #5E98B5;
 }
 
 .get-started-cta-btn{
 	font-size: 16px;
-	padding: 14px 40px;
-	background: #69AED1;
+	padding-left: 34px;
 	color: #fff;
 	display: block;
-	line-height: 21px;
 	min-width: 0;
 	min-height: 0;
 	margin: 0;
 	text-align: center;
-	border: none;
-	border-radius: 6px;
+	background-image: url("../img/icon-watch.png");
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	text-decoration: none;
 }
 
 #what-is {
@@ -194,28 +209,22 @@ p.only-cost{
 .taylor-title{	
 }
 
-ul.social-media-links{
+ul.social{
 	float: right;
 	padding-top: 10px;
 }
 
 li.icon-twitter{
-	background-image: url("../img/icon-twitter.png");
-	background-size: 26px 26px;
 	width: 26px;
 	height: 26px;
 }
 
 li.icon-github{
-	background-image: url("../img/icon-github.png");
-	background-size: 26px 26px;
 	width: 26px;
 	height: 26px;
 }
 
 li.icon-email{
-	background-image: url("../img/icon-email.png");
-	background-size: 26px 26px;
 	width: 26px;
 	height: 26px;
 }
@@ -363,6 +372,17 @@ figure {
 .hero-illustration{
 }
 
+.taylor-name{
+	color: #69AED1;
+	font-weight: 500;
+}
+
+.taylor-title{
+	font-size: 0.85em;
+}
+
+
+
 @media 
 (min-width: 1200px){ 
 
@@ -408,6 +428,17 @@ figure {
 .dashboard-screen{
 	position: absolute;
 	clip: rect(0px, 448px, 326px, 0px);
+}
+	
+.hand-built{
+	margin: 0 auto;
+	max-width: 440px;
+	margin-bottom: 80px;
+}
+	
+.ecosystem {
+	margin: 0 auto;
+	max-width: 440px;
 }
 	
 	
@@ -494,6 +525,10 @@ p.enough-features{
 	width: 440px;
 }
 
+.taylor-quote, .hand-built-title, .ecosystem-title{
+	text-align: center;
+}
+
 }
 
 
@@ -545,9 +580,7 @@ textarea.form-control{
     -webkit-box-shadow: none;
 }
 
-ul.social{
-	padding: 20px 0 0 0 ;	
-}
+
 
 li{
 	list-style: none;
@@ -557,6 +590,7 @@ li{
 
 a.social-link{
 	opacity: 0.75;;
+	cursor: pointer;
 }
 
 a.social-link:hover{
